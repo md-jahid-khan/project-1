@@ -1,0 +1,163 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 8px;
+}
+h1,h2,h3,h4,h5,h6, p{
+    margin: 8px 0;
+}
+.containar{
+    width: 1080px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.containar-1{
+    width: 1080px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 20px;
+}
+
+.row{
+    display: flex;
+}
+a{
+    text-decoration: none;
+}
+
+.col-1{width: 8.33%;}
+.col-2{width: 16.66%;}
+.col-3{ width: 25%;}
+.col-4{width: 33.33%;}
+.col-5{width: 41.66%;}
+.col-6{width: 50%;}
+.col-7{width: 58.33%;}
+.col-8{width: 66.33%;}
+.col-9{width: 75%;}
+.col-10{width: 83.33%;}
+.col-11{width: 91.66%;}
+.col-12{width: 100%;}
+.flot{display: flex
+}
+/*------Menu Bar------*/
+nav{
+    background-color: black;
+    position: sticky;
+    margin-top: 0px;
+}
+.menu-text{
+color: rgb(255, 255, 255);
+font-size: 22px;
+margin-top: 15px;
+
+
+}
+.menu{
+list-style: none;
+display: flex;
+justify-content: end;
+height: auto;
+
+}
+.menu .menu-special li a{
+    color: white;  
+}
+.menu .menu-special li a:hover{
+    color: white;
+}
+.menu li{
+   text-align: center;
+    padding: 20px 15px;
+}
+.menu li a{
+color: rgb(150, 150, 150);
+font-size: 18px;
+}
+.menu li a:hover{
+color: rgb(170, 166, 166);
+}
+/*-------Menu Bar End-------*/
+.row{
+    gap: 50px;
+}
+/*--------benar start---------*/
+.heding{
+    text-align: center;
+    font-size: 25px;
+    padding-top: 90px;
+}
+.text{
+    text-align: center;
+    font-size: 27px;
+    line-height: 37px;
+}
+.colour{
+    background-color: antiquewhite;
+    height: 400px;
+    margin-top: 50px;
+}
+.click{
+    text-align: center;
+    font-size: 24px;
+    margin-top: 25px;
+    color: white;
+   
+}
+.click span{
+    background-color: rgb(100, 59, 250);
+    padding: 10px;
+    border-radius: 6px;
+}
+/*--------Benar End---------*/
+/*--------main page start---------*/
+.colour-2{
+    background-color: antiquewhite;
+    text-align: center;
+    margin-top: 50px;
+    padding: 40px;
+    font-size: 18px;
+    position: relative;
+}
+.bold{
+    font-size: 30px;
+}
+.image-box{
+    position: absolute;
+    background-color: navy;
+    width: 65px;
+    height: 65px;
+    padding: 9px;
+    border-radius: 5px;
+    margin-top: -160px;
+    margin-left: 174px;
+}
+.image{
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    
+    
+}
+/*--------Main menu End---------*/
+/*----footer start-------*/
+footer{
+    background-color: black;
+    height: 150px;
+    margin-top: 48px;
+    margin-bottom: 0px;
+}
+h2{
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    padding: 68px;
+}
+/*--------footer End---------*/
